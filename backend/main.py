@@ -17,7 +17,7 @@ app.add_middleware(
 )
 
 # Configure Gemini API
-API_KEY = "AIzaSyB82XqWeacZ3WSvx8xTcHqKXbi-uZT6kIQ"
+API_KEY = ""
 genai.configure(api_key=API_KEY)
 
 def extract_text_from_pdf(pdf_path: str) -> str:
